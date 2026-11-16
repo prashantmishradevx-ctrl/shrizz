@@ -11,7 +11,7 @@ export const FeaturedVideo: React.FC = () => {
   const [isMuted, setIsMuted] = useState(false); // Can be unmuted by default or user choice
   const [progress, setProgress] = useState(0);
   const [currentTime, setCurrentTime] = useState('0:00');
-  const [duration, setDuration] = useState('0:15');
+  const [duration, setDuration] = useState('0:12');
 
   const togglePlay = () => {
     if (!videoRef.current) return;

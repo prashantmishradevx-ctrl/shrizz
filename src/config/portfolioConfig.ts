@@ -138,14 +138,14 @@ export const siteConfig: SiteConfig = {
     ]
   },
 
-  // 4. FEATURED 15-SECOND CINEMATIC VIDEO SHOWCASE
+  // 4. FEATURED 12-SECOND CINEMATIC VIDEO SHOWCASE
   featuredVideo: {
     sectionTitle: "MOTION SPOTLIGHT",
-    headline: "15-Second Cinematic Promotional Showcase",
+    headline: "12-Second Cinematic Promotional Showcase",
     supportingText: "An authentic, high-energy promotional reel highlighting atmospheric daylight, graceful movement, and visual presence.",
     videoUrl: "/media/promo-showcase.mp4",
     posterImage: "/media/promo-poster.jpg",
-    durationLabel: "0:15 • 60 FPS",
+    durationLabel: "0:12 • 4K Motion",
     badgeText: "Official Promo Reel",
     instructionsNote: "Your custom video is active at /public/media/promo-showcase.mp4 with H.264 web optimization and custom audio."
   },
@@ -154,13 +154,13 @@ export const siteConfig: SiteConfig = {
   contact: {
     headline: "Have a Space or Business Worth Showcasing?",
     supportingText: "Available for commissions, private home tours, architectural projects, and commercial visual campaigns.",
-    phone: "+919876543210",
-    phoneDisplay: "+91 98765 43210",
-    whatsappNumber: "919876543210",
+    phone: "+918849795905",
+    phoneDisplay: "+91 88497 95905",
+    whatsappNumber: "918849795905",
     whatsappMessage: "Hello Shrizz! I came across your portfolio and would love to discuss a promotional shoot for my space.",
-    instagramHandle: "@shrizz.visuals",
-    instagramUrl: "https://instagram.com",
-    email: "shrizz.visuals@gmail.com",
+    instagramHandle: "@shriziii_vibe",
+    instagramUrl: "https://www.instagram.com/shriziii_vibe?dlrf=MWw1am0zemUzMmk4Zw==",
+    email: "heyriyu@gmail.com",
     location: "Available for on-location shoots & architectural commissions",
     availability: "Currently booking select projects for this season"
   },
