@@ -159,7 +159,7 @@ export const Hero: React.FC = () => {
                     <img
                       src={images[0].url}
                       alt={images[0].alt}
-                      className="w-full h-full object-cover grayscale-[15%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
+                      className="w-full h-full object-cover object-[center_20%] grayscale-[10%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
                       loading="eager"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 text-center">
@@ -185,7 +185,7 @@ export const Hero: React.FC = () => {
                     <img
                       src={images[1].url}
                       alt={images[1].alt}
-                      className="w-full h-full object-cover grayscale-[10%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
+                      className="w-full h-full object-cover object-center grayscale-[5%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
                       loading="eager"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6 text-center">
@@ -211,7 +211,7 @@ export const Hero: React.FC = () => {
                     <img
                       src={images[2].url}
                       alt={images[2].alt}
-                      className="w-full h-full object-cover grayscale-[15%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
+                      className="w-full h-full object-cover object-[center_15%] grayscale-[10%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 text-center">
@@ -237,7 +237,7 @@ export const Hero: React.FC = () => {
                     <img
                       src={images[3].url}
                       alt={images[3].alt}
-                      className="w-full h-full object-cover grayscale-[15%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
+                      className="w-full h-full object-cover object-[center_60%] grayscale-[10%] contrast-[1.08] transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 text-center">
@@ -274,7 +274,7 @@ export const Hero: React.FC = () => {
                   <img
                     src={images[1].url}
                     alt={images[1].alt}
-                    className="w-full h-full rounded-full object-cover"
+                    className="w-full h-full rounded-full object-cover object-center"
                   />
                 </motion.div>
               )}
@@ -290,7 +290,7 @@ export const Hero: React.FC = () => {
                   <img
                     src={images[0].url}
                     alt={images[0].alt}
-                    className="w-full h-full rounded-full object-cover grayscale-[15%]"
+                    className="w-full h-full rounded-full object-cover object-[center_20%] grayscale-[10%]"
                   />
                 </motion.div>
               )}
@@ -306,7 +306,7 @@ export const Hero: React.FC = () => {
                   <img
                     src={images[2].url}
                     alt={images[2].alt}
-                    className="w-full h-full rounded-full object-cover grayscale-[15%]"
+                    className="w-full h-full rounded-full object-cover object-[center_15%] grayscale-[10%]"
                   />
                 </motion.div>
               )}

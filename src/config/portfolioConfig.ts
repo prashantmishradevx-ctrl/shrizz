@@ -4,13 +4,8 @@ import { SiteConfig } from '../types/portfolio';
  * ==============================================================================
  * CENTRALIZED PORTFOLIO CONFIGURATION
  * ==============================================================================
- * You can easily customize every aspect of your portfolio right here:
- * - Personal Name & Branding
- * - Hero Photographs & Circular Collage
- * - About Me & Creative Philosophy
- * - Portfolio Projects (Real Estate & Business Promotions)
- * - Featured 10s Showcase Video (swap with your local or hosted MP4 file)
- * - Contact Details (Phone, WhatsApp, Instagram, Email)
+ * Powered by your personal photography collection and promotional video.
+ * All media is served directly from /public/media/
  * ==============================================================================
  */
 
@@ -22,18 +17,18 @@ export const siteConfig: SiteConfig = {
   heroHeadline: "Spaces. Stories. Visual Experiences.",
   heroSupportingText: "Showcasing properties, beautiful homes and businesses through creative visual storytelling.",
 
-  // 2. HERO CIRCULAR COLLAGE (3-4 Overlapping Circular Photos)
-  // Recreating the reference: overlapping circular masks, staggered depths, luxury real estate + boutique retail
+  // 2. HERO CIRCULAR COLLAGE (User's Curated Photography)
+  // Recreating the reference: overlapping circular masks, staggered depths
   heroCircularImages: [
     {
       id: "hero-circle-1",
-      url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85",
-      alt: "Modern Luxury Villa Exterior at Twilight with Pool Reflection",
-      caption: "Villa Seraphina • Modern Architectural Exterior",
-      badge: "Architecture",
+      url: "/media/hero-circle-1.jpg",
+      alt: "Golden Hour Natural Light Editorial Stills",
+      caption: "Natural Golden Light • Editorial Series",
+      badge: "Editorial Stills",
       desktopStyle: {
-        width: "340px",
-        height: "340px",
+        width: "330px",
+        height: "330px",
         top: "6%",
         left: "4%",
         zIndex: 20,
@@ -42,45 +37,45 @@ export const siteConfig: SiteConfig = {
     },
     {
       id: "hero-circle-2",
-      url: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85",
-      alt: "Sculptural Minimalist Living Room Interior",
-      caption: "The Atrium Penthouse • Editorial Interior Stills",
-      badge: "Interiors",
+      url: "/media/hero-circle-2.jpg",
+      alt: "Classical Heritage Veranda & Colonnade Architectural Stills",
+      caption: "Heritage Veranda • Architectural Stills",
+      badge: "Architecture",
       desktopStyle: {
         width: "360px",
         height: "360px",
-        top: "22%",
-        right: "6%",
+        top: "20%",
+        right: "5%",
         zIndex: 30,
         rotation: "3deg"
       }
     },
     {
       id: "hero-circle-3",
-      url: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=85",
-      alt: "High-End Minimalist Fashion & Design Concept Store",
-      caption: "Maison Blanc • Concept Showroom Showcase",
-      badge: "Showroom",
+      url: "/media/hero-circle-3.jpg",
+      alt: "Architectural Estate Grounds & Dynamic Textile Motion",
+      caption: "Pavilion Grounds • Visual Campaign",
+      badge: "Estate Tour",
       desktopStyle: {
-        width: "300px",
-        height: "300px",
+        width: "310px",
+        height: "310px",
         bottom: "8%",
-        left: "14%",
+        left: "12%",
         zIndex: 25,
         rotation: "-4deg"
       }
     },
     {
       id: "hero-circle-4",
-      url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=85",
-      alt: "Curved Geometric Concrete Villa with Ambient Lighting",
-      caption: "Solstice Pavilion • Twilight Aerial View",
-      badge: "Estates",
+      url: "/media/hero-circle-4.jpg",
+      alt: "Street Commerce & Local Business Promotion",
+      caption: "Tilak Commerce • Local Business Showcase",
+      badge: "Local Business",
       desktopStyle: {
-        width: "260px",
-        height: "260px",
-        bottom: "18%",
-        right: "12%",
+        width: "270px",
+        height: "270px",
+        bottom: "16%",
+        right: "10%",
         zIndex: 15,
         rotation: "1deg"
       }
@@ -91,36 +86,36 @@ export const siteConfig: SiteConfig = {
   about: {
     headline: "Creating Visual Stories That Leave an Impression.",
     subheading: "High-Fashion Art Direction Meets Real Estate & Commercial Promotion",
-    profileImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85",
-    profileAlt: "Portrait Placeholder",
+    profileImage: "/media/about-portrait.jpg",
+    profileAlt: "Shrizz Editorial Portrait",
     roleTitle: "Independent Visual Creator & Cinematographer",
     introductionParagraphs: [
-      "I collaborate with luxury real estate developers, visionary homeowners, boutique showrooms, and local enterprises to translate three-dimensional physical environments into arresting visual narratives.",
-      "Rather than taking standard wide-angle catalog shots, my work treats every property and commercial interior as a cinematic set — capturing authentic volume, sculptural light, natural textures, and the atmosphere that makes a space truly unforgettable."
+      "I collaborate with property developers, fine homeowners, boutique showrooms, and local enterprises to translate physical environments into compelling visual narratives.",
+      "Rather than ordinary catalog shots, my work treats every property, commercial interior, and local enterprise as an authentic set — capturing natural light, volume, vibrant atmosphere, and the human story that makes a space memorable."
     ],
     promotionalWork: [
       {
         id: "work-1",
         title: "Real Estate Photography & Home Tours",
-        description: "Editorial stills and immersive visual tours designed for prime architectural residences, penthouses, and private estates.",
+        description: "Editorial stills and immersive visual tours designed for residences, heritage estates, and architectural spaces.",
         iconName: "Home"
       },
       {
         id: "work-2",
         title: "Property Promotional Videos",
-        description: "Cinematic 4K walkthrough reels, twilight video tours, and fluid camera movements tailored for high-engagement online discovery.",
+        description: "Cinematic walkthrough reels, twilight video tours, and fluid camera movements tailored for high-engagement online discovery.",
         iconName: "Film"
       },
       {
         id: "work-3",
         title: "Shop & Showroom Promotions",
-        description: "Curated visual showcases for flagship retail stores, high-end furniture showrooms, and aesthetic commercial spaces.",
+        description: "Curated visual showcases for retail stores, fashion boutiques, design showrooms, and aesthetic commercial spaces.",
         iconName: "Store"
       },
       {
         id: "work-4",
         title: "Local Business Promotions",
-        description: "Atmospheric, story-driven visual content spotlighting boutique cafes, artisan ateliers, and distinctive local brands.",
+        description: "Atmospheric, story-driven visual content spotlighting neighborhood favorites, artisanal workshops, and commercial spots.",
         iconName: "Sparkles"
       }
     ],
@@ -128,32 +123,31 @@ export const siteConfig: SiteConfig = {
       {
         number: "01",
         title: "Spatial Understanding",
-        description: "Studying the architect's intent, the light cycles of dawn and dusk, and the organic flow from room to room before firing a single shutter."
+        description: "Studying the architect's layout, natural sunlight angles, and the organic flow from room to room before firing a single shutter."
       },
       {
         number: "02",
         title: "Editorial Lighting & Tone",
-        description: "Balancing natural ambient illumination with subtle continuous lighting to maintain rich contrast, tactile shadow, and genuine color accuracy."
+        description: "Harnessing natural ambient daylight and subtle fill to preserve rich contrast, authentic colors, and tactile depth."
       },
       {
         number: "03",
         title: "Cinematic Rhythm",
-        description: "Crafting visual pacing that breathes — combining wide spatial orientation shots with intimate micro-details of materials, marble, wood, and glass."
+        description: "Crafting visual motion that breathes — pairing sweeping spatial perspectives with intimate close-ups of craftsmanship, materials, and character."
       }
     ]
   },
 
-  // 4. FEATURED 10-SECOND VIDEO SHOWCASE
+  // 4. FEATURED 15-SECOND CINEMATIC VIDEO SHOWCASE
   featuredVideo: {
     sectionTitle: "MOTION SPOTLIGHT",
-    headline: "10-Second Cinematic Property Showcase",
-    supportingText: "An ultra-crisp motion snapshot displaying the power of dynamic camera movement, ambient sound design, and twilight atmosphere.",
-    // Standard high-definition sample architectural video loop (can be replaced with any MP4 URL or local '/video.mp4')
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-    posterImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85",
-    durationLabel: "0:10 • 4K UHD",
-    badgeText: "Cinematic Promo Cut",
-    instructionsNote: "To replace with your own 10s MP4: Simply place your file in /public/promo.mp4 and update 'videoUrl' in src/config/portfolioConfig.ts."
+    headline: "15-Second Cinematic Promotional Showcase",
+    supportingText: "An authentic, high-energy promotional reel highlighting atmospheric daylight, graceful movement, and visual presence.",
+    videoUrl: "/media/promo-showcase.mp4",
+    posterImage: "/media/promo-poster.jpg",
+    durationLabel: "0:15 • 60 FPS",
+    badgeText: "Official Promo Reel",
+    instructionsNote: "Your custom video is active at /public/media/promo-showcase.mp4 with H.264 web optimization and custom audio."
   },
 
   // 5. CONTACT SECTION
@@ -171,33 +165,136 @@ export const siteConfig: SiteConfig = {
     availability: "Currently booking select projects for this season"
   },
 
-  // 6. PORTFOLIO PROJECTS (Clearly marked as Demo Content)
+  // 6. PORTFOLIO PROJECTS
   projects: [
+    {
+      id: "heritage-veranda",
+      title: "The Heritage Colonnade • Veranda & Garden Architecture",
+      category: "real-estate",
+      categoryLabel: "Real Estate",
+      subCategory: "Interior & Exterior Photography",
+      tags: ["Heritage Architecture", "Veranda Stills", "Natural Light", "Garden View"],
+      year: "2025",
+      location: "Classical Estate",
+      summary: "An architectural exploration of classical pillars, open-air courtyards, and soft ambient daylight.",
+      description: "Photographed across midday to capture light filtering through carved stone columns and lush exterior greenery. Emphasizes classical proportion, symmetry, and architectural grace.",
+      coverImage: "/media/hero-circle-2.jpg",
+      gallery: [
+        "/media/hero-circle-2.jpg",
+        "/media/IMG-20241216-WA0023.jpg.jpeg",
+        "/media/estate-shoot-1.jpg"
+      ],
+      videoUrl: "/media/promo-showcase.mp4",
+      videoPoster: "/media/promo-poster.jpg",
+      deliverables: [
+        { label: "Deliverable", detail: "High-Resolution Architectural Stills" },
+        { label: "Motion", detail: "15-Second Cinematic Promotional Reel" },
+        { label: "Lighting", detail: "Natural Light Balancing & Detail Retouching" },
+        { label: "Licensing", detail: "Full Commercial & Social Media Usage" }
+      ],
+      featured: true,
+      isDemo: false
+    },
+    {
+      id: "estate-pavilion-campaign",
+      title: "The Estate Grounds • Daylight Architectural Campaign",
+      category: "real-estate",
+      categoryLabel: "Real Estate",
+      subCategory: "Luxury Homes & Home Tours",
+      tags: ["Architectural Grounds", "Outdoor Spatial", "Textile Motion", "Estate Stills"],
+      year: "2025",
+      location: "Pavilion Grounds",
+      summary: "Framing modern architectural facades with outdoor natural foliage and vibrant movement.",
+      description: "A dual study in static structure and fluid human motion. Features sweeping exterior compositions, golden sunlight angles, and intimate material close-ups.",
+      coverImage: "/media/hero-circle-3.jpg",
+      gallery: [
+        "/media/hero-circle-3.jpg",
+        "/media/estate-shoot-1.jpg",
+        "/media/estate-shoot-2.jpg"
+      ],
+      videoUrl: "/media/promo-showcase.mp4",
+      videoPoster: "/media/promo-poster.jpg",
+      deliverables: [
+        { label: "Deliverable", detail: "Editorial Architectural & Fashion Stills" },
+        { label: "Motion", detail: "4K Walkthrough & Motion Cuts" },
+        { label: "Color Grade", detail: "Warm Editorial Film LUT" }
+      ],
+      featured: true,
+      isDemo: false
+    },
+    {
+      id: "tilak-commerce-showcase",
+      title: "Tilak Commerce • Local Business Visual Showcase",
+      category: "business-promotions",
+      categoryLabel: "Business Promotions",
+      subCategory: "Local Businesses & Commercial Spaces",
+      tags: ["Local Business", "Street Commerce", "Atmospheric Stills", "Commercial Promotion"],
+      year: "2025",
+      location: "Commercial District",
+      summary: "Capturing the authentic vibrancy, community presence, and culinary craft of a busy commercial hub.",
+      description: "Commissioned to build an engaging visual presence for a beloved local business. Combines street-level contextual wide shots with vibrant close-ups that honor everyday craftsmanship.",
+      coverImage: "/media/hero-circle-4.jpg",
+      gallery: [
+        "/media/hero-circle-4.jpg",
+        "/media/hero-circle-1.jpg",
+        "/media/estate-shoot-2.jpg"
+      ],
+      videoUrl: "/media/promo-showcase.mp4",
+      videoPoster: "/media/promo-poster.jpg",
+      deliverables: [
+        { label: "Deliverable", detail: "Commercial Spotlight Stills" },
+        { label: "Social Cuts", detail: "Instagram Story & Feed Visual Assets" },
+        { label: "Local Identity", detail: "Brand Visual Storytelling" }
+      ],
+      featured: true,
+      isDemo: false
+    },
+    {
+      id: "golden-hour-editorial",
+      title: "Lumina Golden Hour • Portrait & Detail Series",
+      category: "business-promotions",
+      categoryLabel: "Business Promotions",
+      subCategory: "Shops & Showrooms",
+      tags: ["Editorial", "Natural Light", "Boutique Showcase", "Artisan Stills"],
+      year: "2025",
+      location: "Heritage Quarter",
+      summary: "Warm late-afternoon directional sunlight highlighting jewelry, textiles, and authentic personality.",
+      description: "Crafted for boutique fashion and showroom promotion. Uses directional raking sunlight to accentuate delicate embroideries, metallic jewelry reflections, and warm skin tones.",
+      coverImage: "/media/hero-circle-1.jpg",
+      gallery: [
+        "/media/hero-circle-1.jpg",
+        "/media/avatar-profile.jpg",
+        "/media/Snapchat-146371157.jpg.jpeg",
+        "/media/Snapchat-1832387260.jpg.jpeg"
+      ],
+      deliverables: [
+        { label: "Deliverable", detail: "Lookbook & Showroom Photographic Suite" },
+        { label: "Micro-Details", detail: "High-Macro Jewelry & Texture Captures" },
+        { label: "Formats", detail: "Print & Social Ready Exports" }
+      ],
+      featured: false,
+      isDemo: false
+    },
     {
       id: "villa-solstice",
       title: "Villa Solstice • Coastal Minimalist Residence",
       category: "real-estate",
       categoryLabel: "Real Estate",
-      subCategory: "Luxury Homes & Modern Villas",
+      subCategory: "Modern Villas & Luxury Homes",
       tags: ["Modern Villa", "Twilight Stills", "Drone Walkthrough", "Architectural"],
       year: "2025",
       location: "Private Bay Estate",
       summary: "A monolithic concrete and glass residence overlooking the sea, captured across golden hour and twilight.",
-      description: "An editorial study in scale, clean lines, and water reflections. The shoot encompassed 35 high-resolution architectural plates, a 60-second twilight drone reel, and an interior daylight home walkthrough.",
+      description: "An editorial study in scale, clean lines, and water reflections. The shoot encompassed 35 high-resolution architectural plates and twilight drone panoramas.",
       coverImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85",
       gallery: [
         "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85",
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=85"
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
       ],
-      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      videoPoster: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85",
       deliverables: [
-        { label: "Deliverable", detail: "32 High-End Retouched Architectural Stills" },
-        { label: "Motion", detail: "60-Second 4K Cinematic Home Tour Reel" },
-        { label: "Aerial", detail: "Twilight Drone Exterior Panoramas" },
-        { label: "Format", detail: "Print & Social 9:16 + 16:9 Cuts" }
+        { label: "Deliverable", detail: "32 Retouched Architectural Plates" },
+        { label: "Motion", detail: "Twilight Aerial Drone Reel" }
       ],
       featured: true,
       isDemo: true
@@ -216,113 +313,11 @@ export const siteConfig: SiteConfig = {
       coverImage: "https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=1200&q=85",
       gallery: [
         "https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=85"
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=85"
       ],
       deliverables: [
         { label: "Deliverable", detail: "24 Editorial Showroom Stills" },
-        { label: "Commercial Reel", detail: "30-Second Brand Promotional Feature" },
-        { label: "Social", detail: "Instagram Carousel Series" }
-      ],
-      featured: true,
-      isDemo: true
-    },
-    {
-      id: "monochrome-penthouse",
-      title: "The Noir Residence • High-Rise Penthouse",
-      category: "real-estate",
-      categoryLabel: "Real Estate",
-      subCategory: "Apartments & Interior Photography",
-      tags: ["Luxury Penthouse", "Interior Design", "Cityscape Views", "Editorial"],
-      year: "2025",
-      location: "Metropolitan Tower",
-      summary: "Dark-toned walnut millwork, bookmatched Nero Marquina marble, and panoramic city vistas.",
-      description: "An exercise in low-key interior photography. Focused on moody ambient evening light, reflection control on floor-to-ceiling glazing, and tactile detail close-ups.",
-      coverImage: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
-      gallery: [
-        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=85"
-      ],
-      deliverables: [
-        { label: "Deliverable", detail: "28 High-Resolution Interior Plates" },
-        { label: "Virtual Walkthrough", detail: "4K Continuous Steadycam Tour" },
-        { label: "Night Stills", detail: "Skyline Long-Exposure Captures" }
-      ],
-      featured: false,
-      isDemo: true
-    },
-    {
-      id: "atelier-botanica",
-      title: "Atelier Botanica • Boutique Artisan Space",
-      category: "business-promotions",
-      categoryLabel: "Business Promotions",
-      subCategory: "Shops & Local Businesses",
-      tags: ["Boutique Shop", "Local Business", "Organic Texture", "Craftsmanship"],
-      year: "2025",
-      location: "Heritage Quarter",
-      summary: "An organic tea and ceramic boutique celebrating raw terracotta, natural linen, and hand-thrown pottery.",
-      description: "Commissioned to develop an authentic visual personality for a newly opened neighborhood gem. Combines wide interior atmosphere with macro shots of brewing craft and texture.",
-      coverImage: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
-      gallery: [
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85"
-      ],
-      deliverables: [
-        { label: "Deliverable", detail: "20 Curated Brand Images" },
-        { label: "Promo Reel", detail: "15-Second Artisanal Process Short" },
-        { label: "Website Assets", detail: "Hero Header Stills & Grid Tiles" }
-      ],
-      featured: false,
-      isDemo: true
-    },
-    {
-      id: "glass-pavilion",
-      title: "The Glass Pavilion • Architectural Sanctuary",
-      category: "real-estate",
-      categoryLabel: "Real Estate",
-      subCategory: "Modern Villas & Home Tours",
-      tags: ["Architectural Stills", "Minimalism", "Indoor-Outdoor", "Home Tour"],
-      year: "2024",
-      location: "Forest Foothills",
-      summary: "Seamless glass walls creating an unbroken dialogue between sculptural living areas and native pine trees.",
-      description: "Photographed at early morning light to capture misty atmospheric filtration. Every image is framed to honor structural symmetry and the Japanese concept of Shakkei (borrowed scenery).",
-      coverImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=85",
-      gallery: [
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1600573472591-ee6c563aaec9?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=85"
-      ],
-      deliverables: [
-        { label: "Deliverable", detail: "36 Retouched Architectural Plates" },
-        { label: "Home Tour", detail: "90s Guided Video Walkthrough" },
-        { label: "Editorial", detail: "Published Feature Layout Assets" }
-      ],
-      featured: true,
-      isDemo: true
-    },
-    {
-      id: "vault-concept-store",
-      title: "KÖNIG • Concept Store & Watch Salon",
-      category: "business-promotions",
-      categoryLabel: "Business Promotions",
-      subCategory: "Commercial Spaces & Retail Stores",
-      tags: ["Luxury Retail", "Watch Salon", "Commercial Promotion", "Minimalist"],
-      year: "2024",
-      location: "Financial Core",
-      summary: "Brushed titanium vitrines, monolithic black granite counters, and discrete client negotiation salons.",
-      description: "Visual identity campaign for a luxury timepiece collector space. High-contrast directional lighting was tuned to capture delicate watch bevels without glass glare.",
-      coverImage: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1200&q=85",
-      gallery: [
-        "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=85",
-        "https://images.unsplash.com/photo-1555529771-7888783a18d3?auto=format&fit=crop&w=1200&q=85"
-      ],
-      deliverables: [
-        { label: "Deliverable", detail: "18 High-Gloss Commercial Images" },
-        { label: "Teaser", detail: "10-Second VIP Opening Announcement Video" },
-        { label: "Commercial Rights", detail: "Full Global Digital & Print Licensing" }
+        { label: "Commercial Reel", detail: "30-Second Brand Feature" }
       ],
       featured: false,
       isDemo: true
