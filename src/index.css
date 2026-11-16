@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #050505;
+    color: #F5F2EB;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #050505;
+  }
+
+  /* Editorial Serif Heading Styles */
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Didot, Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+  }
+}
+
+/* Subtle editorial film grain & luxury glowing gradients */
+.editorial-mask {
+  mask-image: radial-gradient(circle, black 70%, transparent 100%);
+}
+
+.subtle-border {
+  border: 1px solid rgba(245, 242, 235, 0.12);
+}
+
+.subtle-border-hover:hover {
+  border-color: rgba(245, 242, 235, 0.4);
+}
+
+.glass-panel {
+  background: rgba(17, 17, 17, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
